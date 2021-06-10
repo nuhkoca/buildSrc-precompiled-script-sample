@@ -28,9 +28,7 @@ configure<BaseExtension> {
         }
         getByName("release") {
             isMinifyEnabled = true
-            isZipAlignEnabled = true
             isDebuggable = false
-            isJniDebuggable = false
         }
     }
 }
